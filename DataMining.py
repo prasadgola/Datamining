@@ -1,7 +1,6 @@
-# Read/clean all the presidential files
+#Read/clean all the US president address
 import os
 corpusroot = './US_Inaugural_Addresses'
-
 docs = {}
 for filename in os.listdir(corpusroot):
     if filename.startswith('0') or filename.startswith('1'):
